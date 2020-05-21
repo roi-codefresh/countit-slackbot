@@ -1,0 +1,17 @@
+{
+  "name": "countit-slackbot",
+  "version": "1.0.0",
+  "description": "slack bot that counts things",
+  "main": "server/index.js",
+  "repository": "git@github.com:roi-codefresh/countit-slackbot.git",
+  "author": "<roi.kramer@codefresh.io>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server/index.js"
+  }
+}
